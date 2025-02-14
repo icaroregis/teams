@@ -1,4 +1,3 @@
-import SecondaryHeader from '@components/SecondaryHeader'
 import '@styles/global.css'
 import { Slot } from 'expo-router'
 import React from 'react'
@@ -11,7 +10,6 @@ export default function Layout() {
     <PaperProvider>
       <SafeAreaView>
         <StatusBar barStyle={'dark-content'} />
-        <SecondaryHeader />
         <Slot />
       </SafeAreaView>
     </PaperProvider>

@@ -1,5 +1,5 @@
-import Home from './home'
+import Groups from './groups'
 
 export default function App() {
-  return <Home />
+  return <Groups />
 }
