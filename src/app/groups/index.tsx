@@ -1,9 +1,9 @@
-import { Container, Text } from './styles'
+import { Text, View } from 'react-native'
 
 export default function Groups() {
   return (
-    <Container>
-      <Text>Groups teste</Text>
-    </Container>
+    <View className="flex-1 bg-black">
+      <Text className="text-[#ffffff] text-[32px]">Groups teste</Text>
+    </View>
   )
 }

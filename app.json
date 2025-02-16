@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "teams",
-    "slug": "teams",
+    "name": "virtual-process-app",
+    "slug": "virtual-process-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

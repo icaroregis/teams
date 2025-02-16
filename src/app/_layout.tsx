@@ -8,7 +8,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 export default function Layout() {
   return (
     <PaperProvider>
-      <SafeAreaView>
+      <SafeAreaView className="flex-1">
         <StatusBar barStyle={'dark-content'} />
         <Slot />
       </SafeAreaView>

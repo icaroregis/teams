@@ -2,21 +2,19 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "baseUrl": "./src",
     "paths": {
-      "@app/*": [
-        "./src/app/*"
-      ],
       "@assets/*": [
-        "./src/assets/*"
+        "assets/*"
       ],
       "@components/*": [
-        "./src/components/*"
+        "components/*"
+      ],
+      "@styles/*": [
+        "styles/*"
       ],
       "@storage/*": [
         "./src/storage/*"
-      ],
-      "@theme/*": [
-        "./src/theme/*"
       ],
       "@utils/*": [
         "./src/utils/*"
@@ -27,6 +25,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
   ]
 }
