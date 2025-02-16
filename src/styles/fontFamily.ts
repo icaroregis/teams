@@ -1,4 +1,4 @@
 export const fontFamily = {
-  REGULAR: 'Roboto_400Regular',
-  BOLD: 'Roboto_700Bold',
+  roboto: 'Roboto_400Regular',
+  roboto_bold: 'Roboto_700Bold',
 }

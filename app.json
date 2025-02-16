@@ -32,6 +32,15 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/roboto",
+            "node_modules/@expo-google-fonts/dancing-script"
+          ]
+        }
       ]
     ],
     "experiments": {
