@@ -1,5 +1,5 @@
-import Groups from './groups'
+import { Redirect } from 'expo-router'
 
 export default function App() {
-  return <Groups />
+  return <Redirect href={'/groups'} />
 }

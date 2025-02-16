@@ -19,6 +19,14 @@ module.exports = function (api) {
         },
         'react-native-reanimated/plugin',
       ],
+      [
+        'babel-plugin-styled-components',
+        {
+          ssr: false, // Desative SSR (não é necessário no React Native)
+          displayName: true, // Ative nomes de exibição para depuração
+          preprocess: false,
+        },
+      ],
     ],
   }
 }
