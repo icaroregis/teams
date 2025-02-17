@@ -1,8 +1,8 @@
 import {
-  Roboto_400Regular,
-  Roboto_700Bold,
+  Inter_400Regular,
+  Inter_700Bold,
   useFonts,
-} from '@expo-google-fonts/roboto'
+} from '@expo-google-fonts/inter'
 import '@styles/global.css'
 import { Slot, SplashScreen } from 'expo-router'
 import React, { useEffect } from 'react'
@@ -12,8 +12,8 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 export default function Layout() {
   const [fontsLoaded, fontError] = useFonts({
-    Roboto_400Regular,
-    Roboto_700Bold,
+    Inter_400Regular,
+    Inter_700Bold,
   })
 
   useEffect(() => {
